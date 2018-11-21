@@ -22,7 +22,7 @@ pod 'PandaProTools'
 
 ## Author
 
-yestay90@gmail.com, yestay90@gmail.com
+Yestay Muratov , yestay90@gmail.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module PandaProTools {
+  umbrella header "PandaProTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

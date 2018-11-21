@@ -1,0 +1,6 @@
+framework module Pods_PandaProTools_Example {
+  umbrella header "Pods-PandaProTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
