@@ -18,7 +18,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }()
     
     var arrayTitles: [String] = [
-        "NoScrollableTableView"
+        "NoScrollableTableView",
+        "DateTextField"
     ]
     
     override func viewDidLoad() {
@@ -26,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view, typically from a nib.
         setupViews()
         configureTableView()
-        view.backgroundColor = .white 
+        view.backgroundColor = .white
     }
 
     override func didReceiveMemoryWarning() {
@@ -76,7 +77,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case "NoScrollableTableView":
             
             let vc = TestNoScrollableViewsViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
             
+        case "DateTextField":
+            
+            let vc = DateTextfieldViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

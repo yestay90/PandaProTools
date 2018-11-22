@@ -12,6 +12,12 @@
 		1857916F145BEF93C2D2E1270D813656 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */; };
 		1FA152B62D470A9A4F33222DBB3BB270 /* Pods-PandaProTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3682BA3063BD215B144E0186BAD58441 /* Pods-PandaProTools_Tests-dummy.m */; };
 		379EAD1959788B9EE5918CAB4B89CE03 /* Pods-PandaProTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B1877AF2B0362C0A606B29C307D98 /* Pods-PandaProTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3380CB21A692FF00893E82 /* DateTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380CA21A692FF00893E82 /* DateTextfield.swift */; };
+		4C3380CD21A693BB00893E82 /* TextfieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380CC21A693BB00893E82 /* TextfieldExt.swift */; };
+		4C3380D021A6944C00893E82 /* AttributedTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */; };
+		4C3380D221A6951400893E82 /* ColorsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D121A6951400893E82 /* ColorsExt.swift */; };
+		4C3380D621A6983C00893E82 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D521A6983C00893E82 /* DateExt.swift */; };
+		4C3380D821A6984A00893E82 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D721A6984A00893E82 /* StringExt.swift */; };
 		5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */; };
 		5B1711528A6E8063E973E0CF5AF825A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
 		5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */; };
@@ -22,7 +28,6 @@
 		A2C265F67B512401C52B57133C3FFEA0 /* PandaProTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C2F8FC09627F48F2CCA53AE9353765 /* PandaProTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC8CD545A32CBE488E1CF6D3FC872A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
 		B692D6F6F0DE7E6AFEC5160DFE4E3788 /* NoScrollableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */; };
-		C1AAB4A9A424219C6B279C766D9E8B80 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */; };
 		D143599DD9885A585FEF7F02A9740ED7 /* NoScrollableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */; };
 		EF374AD0D72F92E6BDCE2C651BB08D58 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4860621E79B4291C275219E000461D /* RadioButton.swift */; };
 		FFC8B18D6CEBF56076B561F01CA6D972 /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */; };
@@ -49,7 +54,7 @@
 		01D57C12F3458802A3F0C9C73AC379E7 /* ImageLabelButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageLabelButtonView.swift; sourceTree = "<group>"; };
 		0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableTableView.swift; sourceTree = "<group>"; };
 		0D4860621E79B4291C275219E000461D /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
-		1320DA836B7288B787BA9EA4F8FCA3BE /* Pods_PandaProTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PandaProTools_Tests.framework; path = "Pods-PandaProTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1320DA836B7288B787BA9EA4F8FCA3BE /* Pods_PandaProTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1427DD0302DA501BFF0E846F8D2BF5CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1C882E22A901BE2ABE4AA9FA4BECBDC5 /* Pods-PandaProTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PandaProTools_Example-dummy.m"; sourceTree = "<group>"; };
 		28532A6402F0DE0FD1D00B0C7871511D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,35 +66,40 @@
 		46111E07E3080B8B5B5662C4DC506C87 /* Pods-PandaProTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A83F4F917B18932713EEB5235F7A268 /* Pods-PandaProTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B36677254861F0D24083878B24993F2 /* Pods-PandaProTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		4C3380CA21A692FF00893E82 /* DateTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTextfield.swift; sourceTree = "<group>"; };
+		4C3380CC21A693BB00893E82 /* TextfieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieldExt.swift; sourceTree = "<group>"; };
+		4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextManager.swift; sourceTree = "<group>"; };
+		4C3380D121A6951400893E82 /* ColorsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsExt.swift; sourceTree = "<group>"; };
+		4C3380D521A6983C00893E82 /* DateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		4C3380D721A6984A00893E82 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableCollectionView.swift; sourceTree = "<group>"; };
 		4DCCCF0C5173BFD84770599112FE8213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507B191D5C89402AE96D021E3A5AD910 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PandaProTools.framework; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA7BAB4E2394E35D1643CA346689DC9 /* PandaProTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PandaProTools.xcconfig; sourceTree = "<group>"; };
 		5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PandaProTools-dummy.m"; sourceTree = "<group>"; };
-		5F3AB2F47206B2AA5CA5AC712A96A40D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F3AB2F47206B2AA5CA5AC712A96A40D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69D874F0BBC8770D0D2DF04513517A79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F99BEF047DCAFEF2DF27D189A59315F /* Pods-PandaProTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		74C2F8FC09627F48F2CCA53AE9353765 /* PandaProTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-umbrella.h"; sourceTree = "<group>"; };
 		7CDEBB260D2342ED3EC751BA99A73B2A /* Pods-PandaProTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Example-resources.sh"; sourceTree = "<group>"; };
-		80DBEA47124BB88E8A2F1B599E4EEF4F /* PandaProTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PandaProTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80DBEA47124BB88E8A2F1B599E4EEF4F /* PandaProTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PandaProTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		899DDA957E2780F4752322FD1903627F /* Pods-PandaProTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PandaProTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C5920CC9104422621A223DE1C4F5938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		982B1877AF2B0362C0A606B29C307D98 /* Pods-PandaProTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PandaProTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A004B3D386A325543AD502A2FA70E61 /* Pods-PandaProTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PandaProTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C0950F7D760C2C9E3AB8AAAB803D8BA /* Pods-PandaProTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageAndLabel.swift; sourceTree = "<group>"; };
 		A4DD9F2558B58ED248158730B7FE9728 /* Pods-PandaProTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7369F8244831A6C6DDE99BB23FB8213 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7369F8244831A6C6DDE99BB23FB8213 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE9A935E2F37C7EA8811E4DE817075FD /* PandaProTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PandaProTools.modulemap; sourceTree = "<group>"; };
-		DA3D48B68EA60062DBD92993CA6F00D3 /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PandaProTools_Example.framework; path = "Pods-PandaProTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3D48B68EA60062DBD92993CA6F00D3 /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11A3F47A24B0428671339B52A66F9FB /* Pods-PandaProTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PandaProTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelWithImage.swift; sourceTree = "<group>"; };
 		E76A993B1BA3A12A930A41A227EA1E96 /* PandaProTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-prefix.pch"; sourceTree = "<group>"; };
-		F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PandaProTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +175,22 @@
 			path = "Example/Pods/Target Support Files/PandaProTools";
 			sourceTree = "<group>";
 		};
+		4C3380C921A692E700893E82 /* CustomTextFieldViews */ = {
+			isa = PBXGroup;
+			children = (
+				4C3380CA21A692FF00893E82 /* DateTextfield.swift */,
+			);
+			path = CustomTextFieldViews;
+			sourceTree = "<group>";
+		};
+		4C3380CE21A693EF00893E82 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		5395C52BEA67E786EEF5898FE0DDAEA7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +235,8 @@
 		7F63A1563552235CB38B9AAA028FC973 /* PandaProTools */ = {
 			isa = PBXGroup;
 			children = (
-				F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */,
+				4C3380CE21A693EF00893E82 /* Manager */,
+				4C3380C921A692E700893E82 /* CustomTextFieldViews */,
 				83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */,
 				1735DD50605144147F40F2E02B5FA01E /* LabelWithImageViews */,
 				785BDB228C825FF30959C29D4F9116D8 /* NoScrollableViews */,
@@ -241,6 +268,10 @@
 		83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4C3380D721A6984A00893E82 /* StringExt.swift */,
+				4C3380D521A6983C00893E82 /* DateExt.swift */,
+				4C3380D121A6951400893E82 /* ColorsExt.swift */,
+				4C3380CC21A693BB00893E82 /* TextfieldExt.swift */,
 				59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */,
 			);
 			name = Extensions;
@@ -407,14 +438,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3380D021A6944C00893E82 /* AttributedTextManager.swift in Sources */,
+				4C3380D221A6951400893E82 /* ColorsExt.swift in Sources */,
+				4C3380D621A6983C00893E82 /* DateExt.swift in Sources */,
 				5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */,
+				4C3380CD21A693BB00893E82 /* TextfieldExt.swift in Sources */,
 				742F294E0C25F90FFB09603673301851 /* ImageLabelButtonView.swift in Sources */,
+				4C3380CB21A692FF00893E82 /* DateTextfield.swift in Sources */,
 				FFC8B18D6CEBF56076B561F01CA6D972 /* LabelWithImage.swift in Sources */,
 				D143599DD9885A585FEF7F02A9740ED7 /* NoScrollableCollectionView.swift in Sources */,
 				B692D6F6F0DE7E6AFEC5160DFE4E3788 /* NoScrollableTableView.swift in Sources */,
+				4C3380D821A6984A00893E82 /* StringExt.swift in Sources */,
 				5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */,
 				EF374AD0D72F92E6BDCE2C651BB08D58 /* RadioButton.swift in Sources */,
-				C1AAB4A9A424219C6B279C766D9E8B80 /* ReplaceMe.swift in Sources */,
 				1857916F145BEF93C2D2E1270D813656 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
