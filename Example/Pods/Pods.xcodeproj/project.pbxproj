@@ -180,7 +180,8 @@
 			children = (
 				4C3380CA21A692FF00893E82 /* DateTextfield.swift */,
 			);
-			path = CustomTextFieldViews;
+			name = CustomTextFieldViews;
+			path = PandaProTools/Classes/CustomTextFieldViews;
 			sourceTree = "<group>";
 		};
 		4C3380CE21A693EF00893E82 /* Manager */ = {
@@ -188,7 +189,8 @@
 			children = (
 				4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */,
 			);
-			path = Manager;
+			name = Manager;
+			path = PandaProTools/Classes/Manager;
 			sourceTree = "<group>";
 		};
 		5395C52BEA67E786EEF5898FE0DDAEA7 /* iOS */ = {
