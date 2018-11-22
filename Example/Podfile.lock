@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PandaProTools: ec78515d9a8ae4c7ee87d23fd1ef966d6b93fbfc
+  PandaProTools: 390cf43e1e6d288f04cfe22d78ed006df42713c3
 
 PODFILE CHECKSUM: f84ed418ae6afc536cf7367e5f830b9f5eebe08b
 

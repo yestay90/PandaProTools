@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182EA9AA127A12DD17A1B515C8E5824E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1205BDCD66B20DD052A91DDC3F15B6E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28532A6402F0DE0FD1D00B0C7871511D /* MapKit.framework */; };
+		182EA9AA127A12DD17A1B515C8E5824E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
+		1857916F145BEF93C2D2E1270D813656 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */; };
 		1FA152B62D470A9A4F33222DBB3BB270 /* Pods-PandaProTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3682BA3063BD215B144E0186BAD58441 /* Pods-PandaProTools_Tests-dummy.m */; };
 		379EAD1959788B9EE5918CAB4B89CE03 /* Pods-PandaProTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B1877AF2B0362C0A606B29C307D98 /* Pods-PandaProTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CFE1A6821A555D300E104FE /* ImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE1A6621A555D300E104FE /* ImageAndLabel.swift */; };
-		4CFE1A6921A555D300E104FE /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE1A6721A555D300E104FE /* LabelWithImage.swift */; };
-		4CFE1A6C21A5565600E104FE /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE1A6B21A5565600E104FE /* View.swift */; };
-		4CFE1A6E21A5603100E104FE /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE1A6D21A5603100E104FE /* RadioButton.swift */; };
-		4CFE1A7321A561F400E104FE /* ImageLabelButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE1A7121A561F400E104FE /* ImageLabelButtonView.swift */; };
-		5B1711528A6E8063E973E0CF5AF825A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5D47D39CAAD6A375B847D91743F3ED82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */; };
+		5B1711528A6E8063E973E0CF5AF825A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
+		5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */; };
 		5FBD08A370966C89752CB84803858949 /* Pods-PandaProTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C882E22A901BE2ABE4AA9FA4BECBDC5 /* Pods-PandaProTools_Example-dummy.m */; };
-		68D02B296D692C997EE5F65142E52372 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2A872364E864E9EB2200CC382B82D /* ReplaceMe.swift */; };
+		742F294E0C25F90FFB09603673301851 /* ImageLabelButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D57C12F3458802A3F0C9C73AC379E7 /* ImageLabelButtonView.swift */; };
 		78839F20EA881C15A7F3C23A598596A9 /* Pods-PandaProTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C743685CF19FCB412269C0984FB5B41 /* Pods-PandaProTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B404BEADD76050EAB7597549CDA4C87C /* PandaProTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95553A2284E1B3685D582794DEA4FAA4 /* PandaProTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFA0B017CB77955A11C54ADB08E4BD0 /* PandaProTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD71F778233A1070F9C83214CB72EF42 /* PandaProTools-dummy.m */; };
+		9332B212254CC221607C565BFA68C3A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1427DD0302DA501BFF0E846F8D2BF5CD /* UIKit.framework */; };
+		A2C265F67B512401C52B57133C3FFEA0 /* PandaProTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C2F8FC09627F48F2CCA53AE9353765 /* PandaProTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8CD545A32CBE488E1CF6D3FC872A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
+		B692D6F6F0DE7E6AFEC5160DFE4E3788 /* NoScrollableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */; };
+		C1AAB4A9A424219C6B279C766D9E8B80 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */; };
+		D143599DD9885A585FEF7F02A9740ED7 /* NoScrollableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */; };
+		EF374AD0D72F92E6BDCE2C651BB08D58 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4860621E79B4291C275219E000461D /* RadioButton.swift */; };
+		FFC8B18D6CEBF56076B561F01CA6D972 /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +33,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D6A8FA75A5B9F8D8BFD1A58D8AD39D6;
+			remoteGlobalIDString = A39FC9F40FA47131BBCEF4E85AB6309C;
 			remoteInfo = PandaProTools;
 		};
 		484D5A45B195887F1A6878EC4DD7F00A /* PBXContainerItemProxy */ = {
@@ -42,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0600375D7F0654B090256768F9CB585B /* PandaProTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PandaProTools.modulemap; sourceTree = "<group>"; };
-		10123C70D02769EC3A1BAC0CE6A8E389 /* PandaProTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-prefix.pch"; sourceTree = "<group>"; };
-		1320DA836B7288B787BA9EA4F8FCA3BE /* Pods_PandaProTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D57C12F3458802A3F0C9C73AC379E7 /* ImageLabelButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageLabelButtonView.swift; sourceTree = "<group>"; };
+		0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableTableView.swift; sourceTree = "<group>"; };
+		0D4860621E79B4291C275219E000461D /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		1320DA836B7288B787BA9EA4F8FCA3BE /* Pods_PandaProTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PandaProTools_Tests.framework; path = "Pods-PandaProTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1427DD0302DA501BFF0E846F8D2BF5CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1C882E22A901BE2ABE4AA9FA4BECBDC5 /* Pods-PandaProTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PandaProTools_Example-dummy.m"; sourceTree = "<group>"; };
+		28532A6402F0DE0FD1D00B0C7871511D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		2C743685CF19FCB412269C0984FB5B41 /* Pods-PandaProTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PandaProTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		3682BA3063BD215B144E0186BAD58441 /* Pods-PandaProTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PandaProTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		3A25FD9077DD4EEBC2E0987F8E09B85A /* Pods-PandaProTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PandaProTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -54,34 +61,35 @@
 		46111E07E3080B8B5B5662C4DC506C87 /* Pods-PandaProTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A83F4F917B18932713EEB5235F7A268 /* Pods-PandaProTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B36677254861F0D24083878B24993F2 /* Pods-PandaProTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Tests-resources.sh"; sourceTree = "<group>"; };
-		4CFE1A6621A555D300E104FE /* ImageAndLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAndLabel.swift; sourceTree = "<group>"; };
-		4CFE1A6721A555D300E104FE /* LabelWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelWithImage.swift; sourceTree = "<group>"; };
-		4CFE1A6B21A5565600E104FE /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		4CFE1A6D21A5603100E104FE /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
-		4CFE1A7121A561F400E104FE /* ImageLabelButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLabelButtonView.swift; sourceTree = "<group>"; };
+		4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableCollectionView.swift; sourceTree = "<group>"; };
 		4DCCCF0C5173BFD84770599112FE8213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507B191D5C89402AE96D021E3A5AD910 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		54965AD2F6B88CF20D4239AD2135B8CA /* PandaProTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PandaProTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PandaProTools.framework; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA7BAB4E2394E35D1643CA346689DC9 /* PandaProTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PandaProTools.xcconfig; sourceTree = "<group>"; };
+		5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PandaProTools-dummy.m"; sourceTree = "<group>"; };
+		5F3AB2F47206B2AA5CA5AC712A96A40D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		69D874F0BBC8770D0D2DF04513517A79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F99BEF047DCAFEF2DF27D189A59315F /* Pods-PandaProTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		75F2A872364E864E9EB2200CC382B82D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PandaProTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		74C2F8FC09627F48F2CCA53AE9353765 /* PandaProTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-umbrella.h"; sourceTree = "<group>"; };
 		7CDEBB260D2342ED3EC751BA99A73B2A /* Pods-PandaProTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Example-resources.sh"; sourceTree = "<group>"; };
+		80DBEA47124BB88E8A2F1B599E4EEF4F /* PandaProTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PandaProTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		899DDA957E2780F4752322FD1903627F /* Pods-PandaProTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PandaProTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95553A2284E1B3685D582794DEA4FAA4 /* PandaProTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-umbrella.h"; sourceTree = "<group>"; };
+		8C5920CC9104422621A223DE1C4F5938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		982B1877AF2B0362C0A606B29C307D98 /* Pods-PandaProTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PandaProTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A004B3D386A325543AD502A2FA70E61 /* Pods-PandaProTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PandaProTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C0950F7D760C2C9E3AB8AAAB803D8BA /* Pods-PandaProTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageAndLabel.swift; sourceTree = "<group>"; };
 		A4DD9F2558B58ED248158730B7FE9728 /* Pods-PandaProTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD71F778233A1070F9C83214CB72EF42 /* PandaProTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PandaProTools-dummy.m"; sourceTree = "<group>"; };
-		B1322205EF48A2F9AD3F2A91C22F11ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B82A9B7D01C495DFCDF08A0D2AEBB679 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BE00D61870F4E497223AD6DBC1C8AF17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DA3D48B68EA60062DBD92993CA6F00D3 /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7369F8244831A6C6DDE99BB23FB8213 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE9A935E2F37C7EA8811E4DE817075FD /* PandaProTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PandaProTools.modulemap; sourceTree = "<group>"; };
+		DA3D48B68EA60062DBD92993CA6F00D3 /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PandaProTools_Example.framework; path = "Pods-PandaProTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11A3F47A24B0428671339B52A66F9FB /* Pods-PandaProTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PandaProTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1FEB39291B7061C231B01161EFF67D8 /* PandaProTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PandaProTools.xcconfig; sourceTree = "<group>"; };
+		E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelWithImage.swift; sourceTree = "<group>"; };
+		E76A993B1BA3A12A930A41A227EA1E96 /* PandaProTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PandaProTools-prefix.pch"; sourceTree = "<group>"; };
+		F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PandaProTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73A2D1CCA7D9466D962D49923E06163A /* Frameworks */ = {
+		60C4D651DE9D9D83917F5FFD585DFD05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D47D39CAAD6A375B847D91743F3ED82 /* Foundation.framework in Frameworks */,
+				AC8CD545A32CBE488E1CF6D3FC872A2C /* Foundation.framework in Frameworks */,
+				1205BDCD66B20DD052A91DDC3F15B6E5 /* MapKit.framework in Frameworks */,
+				9332B212254CC221607C565BFA68C3A4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,53 +131,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4CFE1A6521A5549100E104FE /* Classes */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CFE1A6A21A5564500E104FE /* Extensions */,
-				4CFE1A6F21A5610300E104FE /* LabelWithImageViews */,
+				5395C52BEA67E786EEF5898FE0DDAEA7 /* iOS */,
 			);
-			name = Classes;
-			path = PandaProTools/Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CFE1A6A21A5564500E104FE /* Extensions */ = {
+		1735DD50605144147F40F2E02B5FA01E /* LabelWithImageViews */ = {
 			isa = PBXGroup;
 			children = (
-				4CFE1A6B21A5565600E104FE /* View.swift */,
+				A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */,
+				01D57C12F3458802A3F0C9C73AC379E7 /* ImageLabelButtonView.swift */,
+				E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */,
+				0D4860621E79B4291C275219E000461D /* RadioButton.swift */,
 			);
-			path = Extensions;
+			name = LabelWithImageViews;
+			path = PandaProTools/Classes/LabelWithImageViews;
 			sourceTree = "<group>";
 		};
-		4CFE1A6F21A5610300E104FE /* LabelWithImageViews */ = {
+		3893913AA507E011C9A730A0B3C6EAB8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CFE1A6621A555D300E104FE /* ImageAndLabel.swift */,
-				4CFE1A6721A555D300E104FE /* LabelWithImage.swift */,
-				4CFE1A6D21A5603100E104FE /* RadioButton.swift */,
-				4CFE1A7121A561F400E104FE /* ImageLabelButtonView.swift */,
+				8C5920CC9104422621A223DE1C4F5938 /* Info.plist */,
+				BE9A935E2F37C7EA8811E4DE817075FD /* PandaProTools.modulemap */,
+				5CA7BAB4E2394E35D1643CA346689DC9 /* PandaProTools.xcconfig */,
+				5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */,
+				E76A993B1BA3A12A930A41A227EA1E96 /* PandaProTools-prefix.pch */,
+				74C2F8FC09627F48F2CCA53AE9353765 /* PandaProTools-umbrella.h */,
 			);
-			path = LabelWithImageViews;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PandaProTools";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		5395C52BEA67E786EEF5898FE0DDAEA7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */,
+				28532A6402F0DE0FD1D00B0C7871511D /* MapKit.framework */,
+				1427DD0302DA501BFF0E846F8D2BF5CD /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6747CCF3A6F2DCECBB763250DA422ED7 /* PandaProTools */ = {
-			isa = PBXGroup;
-			children = (
-				4CFE1A6521A5549100E104FE /* Classes */,
-				75F2A872364E864E9EB2200CC382B82D /* ReplaceMe.swift */,
-				F1C7BE1C4414D991EE54184D8AF6A7CE /* Pod */,
-				B747482C31F13B6B5B9556D1714BC486 /* Support Files */,
-			);
-			name = PandaProTools;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6B1B776A085E66924FC3B31E60C46246 /* Products */ = {
@@ -180,15 +185,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		785BDB228C825FF30959C29D4F9116D8 /* NoScrollableViews */ = {
+			isa = PBXGroup;
+			children = (
+				4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */,
+				0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */,
+			);
+			name = NoScrollableViews;
+			path = PandaProTools/Classes/NoScrollableViews;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FCC5E83E8312D1ABA0B3EB64D9941F7F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9E8C7719B3AACC5B98F81E4FA49516B0 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				6B1B776A085E66924FC3B31E60C46246 /* Products */,
 				0C547E41519839FBB85F34F0155536F3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F63A1563552235CB38B9AAA028FC973 /* PandaProTools */ = {
+			isa = PBXGroup;
+			children = (
+				F6DF3A7909240841ABD6CF2609300F29 /* ReplaceMe.swift */,
+				83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */,
+				1735DD50605144147F40F2E02B5FA01E /* LabelWithImageViews */,
+				785BDB228C825FF30959C29D4F9116D8 /* NoScrollableViews */,
+				B9F4C9BD21D391A8E8864C9A6BBFD928 /* Pod */,
+				3893913AA507E011C9A730A0B3C6EAB8 /* Support Files */,
+			);
+			name = PandaProTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7FCB2F4279198AF8AEBBB0834C47138A /* Pods-PandaProTools_Tests */ = {
@@ -209,26 +238,31 @@
 			path = "Target Support Files/Pods-PandaProTools_Tests";
 			sourceTree = "<group>";
 		};
-		B747482C31F13B6B5B9556D1714BC486 /* Support Files */ = {
+		83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B1322205EF48A2F9AD3F2A91C22F11ED /* Info.plist */,
-				0600375D7F0654B090256768F9CB585B /* PandaProTools.modulemap */,
-				E1FEB39291B7061C231B01161EFF67D8 /* PandaProTools.xcconfig */,
-				AD71F778233A1070F9C83214CB72EF42 /* PandaProTools-dummy.m */,
-				10123C70D02769EC3A1BAC0CE6A8E389 /* PandaProTools-prefix.pch */,
-				95553A2284E1B3685D582794DEA4FAA4 /* PandaProTools-umbrella.h */,
+				59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PandaProTools";
+			name = Extensions;
+			path = PandaProTools/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9E8C7719B3AACC5B98F81E4FA49516B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				7F63A1563552235CB38B9AAA028FC973 /* PandaProTools */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9F4C9BD21D391A8E8864C9A6BBFD928 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F3AB2F47206B2AA5CA5AC712A96A40D /* LICENSE */,
+				80DBEA47124BB88E8A2F1B599E4EEF4F /* PandaProTools.podspec */,
+				B7369F8244831A6C6DDE99BB23FB8213 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E01ACA2B31809A7F0EB023C64C438C95 /* Pods-PandaProTools_Example */ = {
@@ -249,32 +283,14 @@
 			path = "Target Support Files/Pods-PandaProTools_Example";
 			sourceTree = "<group>";
 		};
-		F1C7BE1C4414D991EE54184D8AF6A7CE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B82A9B7D01C495DFCDF08A0D2AEBB679 /* LICENSE */,
-				54965AD2F6B88CF20D4239AD2135B8CA /* PandaProTools.podspec */,
-				BE00D61870F4E497223AD6DBC1C8AF17 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FCC5E83E8312D1ABA0B3EB64D9941F7F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6747CCF3A6F2DCECBB763250DA422ED7 /* PandaProTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16F5F2B39FDDB3B799A0750F354B9879 /* Headers */ = {
+		448914F5404C7A9C00C09C274A4083A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B404BEADD76050EAB7597549CDA4C87C /* PandaProTools-umbrella.h in Headers */,
+				A2C265F67B512401C52B57133C3FFEA0 /* PandaProTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,23 +331,6 @@
 			productReference = 1320DA836B7288B787BA9EA4F8FCA3BE /* Pods_PandaProTools_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D6A8FA75A5B9F8D8BFD1A58D8AD39D6 /* PandaProTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 979B194898BB00EC930FD883B3B4858D /* Build configuration list for PBXNativeTarget "PandaProTools" */;
-			buildPhases = (
-				EFA12E380A9B42CAD6C9464A9D8184E9 /* Sources */,
-				73A2D1CCA7D9466D962D49923E06163A /* Frameworks */,
-				16F5F2B39FDDB3B799A0750F354B9879 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PandaProTools;
-			productName = PandaProTools;
-			productReference = 5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9377E04335969BBF89F250CFAAFF30BA /* Pods-PandaProTools_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D26DA7C8875886FBD124CD80C04350 /* Build configuration list for PBXNativeTarget "Pods-PandaProTools_Example" */;
@@ -350,6 +349,23 @@
 			productReference = DA3D48B68EA60062DBD92993CA6F00D3 /* Pods_PandaProTools_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A39FC9F40FA47131BBCEF4E85AB6309C /* PandaProTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BB2A47AFAAC3EB408CE651D3F66996 /* Build configuration list for PBXNativeTarget "PandaProTools" */;
+			buildPhases = (
+				F8E70E3A92BCA98298941D2D8BDB90D8 /* Sources */,
+				60C4D651DE9D9D83917F5FFD585DFD05 /* Frameworks */,
+				448914F5404C7A9C00C09C274A4083A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaProTools;
+			productName = PandaProTools;
+			productReference = 5BBA2AEF0EB79475368D2118574573DC /* PandaProTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -358,11 +374,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					6D6A8FA75A5B9F8D8BFD1A58D8AD39D6 = {
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +387,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D6A8FA75A5B9F8D8BFD1A58D8AD39D6 /* PandaProTools */,
+				A39FC9F40FA47131BBCEF4E85AB6309C /* PandaProTools */,
 				9377E04335969BBF89F250CFAAFF30BA /* Pods-PandaProTools_Example */,
 				216D994E120208E205B525F5430DDB50 /* Pods-PandaProTools_Tests */,
 			);
@@ -392,17 +403,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFA12E380A9B42CAD6C9464A9D8184E9 /* Sources */ = {
+		F8E70E3A92BCA98298941D2D8BDB90D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CFE1A6821A555D300E104FE /* ImageAndLabel.swift in Sources */,
-				CDFA0B017CB77955A11C54ADB08E4BD0 /* PandaProTools-dummy.m in Sources */,
-				4CFE1A6C21A5565600E104FE /* View.swift in Sources */,
-				4CFE1A6E21A5603100E104FE /* RadioButton.swift in Sources */,
-				4CFE1A6921A555D300E104FE /* LabelWithImage.swift in Sources */,
-				68D02B296D692C997EE5F65142E52372 /* ReplaceMe.swift in Sources */,
-				4CFE1A7321A561F400E104FE /* ImageLabelButtonView.swift in Sources */,
+				5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */,
+				742F294E0C25F90FFB09603673301851 /* ImageLabelButtonView.swift in Sources */,
+				FFC8B18D6CEBF56076B561F01CA6D972 /* LabelWithImage.swift in Sources */,
+				D143599DD9885A585FEF7F02A9740ED7 /* NoScrollableCollectionView.swift in Sources */,
+				B692D6F6F0DE7E6AFEC5160DFE4E3788 /* NoScrollableTableView.swift in Sources */,
+				5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */,
+				EF374AD0D72F92E6BDCE2C651BB08D58 /* RadioButton.swift in Sources */,
+				C1AAB4A9A424219C6B279C766D9E8B80 /* ReplaceMe.swift in Sources */,
+				1857916F145BEF93C2D2E1270D813656 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +433,7 @@
 		15ACDD2F9888FCD41ACA1E0CDEF34984 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PandaProTools;
-			target = 6D6A8FA75A5B9F8D8BFD1A58D8AD39D6 /* PandaProTools */;
+			target = A39FC9F40FA47131BBCEF4E85AB6309C /* PandaProTools */;
 			targetProxy = 25AE68812E6EF1F5FD961AADF01AD6C1 /* PBXContainerItemProxy */;
 		};
 		B8ADB6896748480C526EFBECA6B192A7 /* PBXTargetDependency */ = {
@@ -432,6 +445,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A5DF36BFEB6411005814C728EAB4E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA7BAB4E2394E35D1643CA346689DC9 /* PandaProTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PandaProTools/PandaProTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PandaProTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PandaProTools/PandaProTools.modulemap";
+				PRODUCT_MODULE_NAME = PandaProTools;
+				PRODUCT_NAME = PandaProTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		22A739E24DDCA5CD8B112EEC916058E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A83F4F917B18932713EEB5235F7A268 /* Pods-PandaProTools_Tests.release.xcconfig */;
@@ -632,18 +678,16 @@
 			};
 			name = Debug;
 		};
-		B0D2E462A745D811DED1B4D173047340 /* Release */ = {
+		B0ACF4A82A5027C4D8CE2EF624DCD956 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FEB39291B7061C231B01161EFF67D8 /* PandaProTools.xcconfig */;
+			baseConfigurationReference = 5CA7BAB4E2394E35D1643CA346689DC9 /* PandaProTools.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -655,18 +699,16 @@
 				MODULEMAP_FILE = "Target Support Files/PandaProTools/PandaProTools.modulemap";
 				PRODUCT_MODULE_NAME = PandaProTools;
 				PRODUCT_NAME = PandaProTools;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -726,41 +768,6 @@
 			};
 			name = Release;
 		};
-		FB7DF6BB38588D1FD8B59D7F807578AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FEB39291B7061C231B01161EFF67D8 /* PandaProTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PandaProTools/PandaProTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PandaProTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PandaProTools/PandaProTools.modulemap";
-				PRODUCT_MODULE_NAME = PandaProTools;
-				PRODUCT_NAME = PandaProTools;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,20 +789,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		979B194898BB00EC930FD883B3B4858D /* Build configuration list for PBXNativeTarget "PandaProTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FB7DF6BB38588D1FD8B59D7F807578AB /* Debug */,
-				B0D2E462A745D811DED1B4D173047340 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C0D26DA7C8875886FBD124CD80C04350 /* Build configuration list for PBXNativeTarget "Pods-PandaProTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BE4CB8370A60B3D19C568A307A2E2B0 /* Debug */,
 				77AF35B473F9F8679E4F23A252EA933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BB2A47AFAAC3EB408CE651D3F66996 /* Build configuration list for PBXNativeTarget "PandaProTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0ACF4A82A5027C4D8CE2EF624DCD956 /* Debug */,
+				0A5DF36BFEB6411005814C728EAB4E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

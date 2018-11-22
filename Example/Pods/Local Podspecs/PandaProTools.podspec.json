@@ -1,22 +1,27 @@
 {
   "name": "PandaProTools",
   "version": "0.1.0",
-  "summary": "A short description of PandaProTools.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yestay90@gmail.com/PandaProTools",
+  "summary": "Helper classes, managers, views for iOS Apps",
+  "description": "TODO: Helper classes, managers, views for iOS Apps. Install library into project, so in order to have access for generic classes, views, managers, and so on",
+  "homepage": "https://github.com/yestay90/PandaProTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yestay90@gmail.com": "yestay90@gmail.com"
+    "Yestay Muratov": "yestay90@gmail.com"
   },
   "source": {
-    "git": "https://github.com/yestay90@gmail.com/PandaProTools.git",
+    "git": "https://github.com/yestay90/PandaProTools.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.1",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "PandaProTools/Classes/**/*"
+  "source_files": "PandaProTools/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }
