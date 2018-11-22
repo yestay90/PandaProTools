@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         setupViews()
         configureTableView()
         view.backgroundColor = .white
+        
     }
 
     override func didReceiveMemoryWarning() {

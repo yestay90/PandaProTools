@@ -8,8 +8,8 @@
 
 import Foundation
 
-class AttributedTextManager {
-    static func getAttributedText(_ string: String, font: UIFont, color: UIColor)->NSAttributedString{
+public class AttributedTextManager {
+    public class func getAttributedText(_ string: String, font: UIFont, color: UIColor)->NSAttributedString{
         let attrubutes = [NSAttributedStringKey.font : font, NSAttributedStringKey.foregroundColor: color]
         
         let nsatrributed = NSAttributedString(string: string, attributes: attrubutes)

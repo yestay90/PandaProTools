@@ -32,17 +32,17 @@ extension UITextField{
         self.rightView?.tintColor = .white
     }
     
-    func setAttibutedPlaceholder(text: String, textColor: UIColor = .black){
-        self.attributedPlaceholder = AttributedTextManager.getAttributedText(text, font: UIFont.systemFont(ofSize: 14), color: textColor)
-        // CommonFunctions.getAttributedText(text, size: 14, color: textColor)
-    }
-    
-    func setColorToAttibutedPlaceholder(hexColor: String){
-        if let placeHolderUnw = self.placeholder {
-            self.attributedPlaceholder = AttributedTextManager.getAttributedText(placeHolderUnw, font: UIFont.systemFont(ofSize: 14), color: UIColor.init(hex: hexColor))
-                //CommonFunctions.getAttributedText(placeHolderUnw, size: 14, color: UIColor.init(hex: hexColor))
-        }
-    }
+//    func setAttibutedPlaceholder(text: String, textColor: UIColor = .black){
+//        self.attributedPlaceholder = AttributedTextManager.getAttributedText(text, font: UIFont.systemFont(ofSize: 14), color: textColor)
+//        // CommonFunctions.getAttributedText(text, size: 14, color: textColor)
+//    }
+//    
+//    func setColorToAttibutedPlaceholder(hexColor: String){
+//        if let placeHolderUnw = self.placeholder {
+//            self.attributedPlaceholder = AttributedTextManager.getAttributedText(placeHolderUnw, font: UIFont.systemFont(ofSize: 14), color: UIColor.init(hex: hexColor))
+//                //CommonFunctions.getAttributedText(placeHolderUnw, size: 14, color: UIColor.init(hex: hexColor))
+//        }
+//    }
     
     func setLeftPaddingPoints(_ amount:CGFloat){
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))

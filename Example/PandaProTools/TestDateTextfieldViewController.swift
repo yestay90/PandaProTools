@@ -16,7 +16,8 @@ class DateTextfieldViewController: UIViewController {
         let v = DateTextField() // you can also create date textfield with custom properties
         v.dateDelegate = self
         v.toolBarBackgroundColor = .red
-        v.backgroundColor = .purple 
+        v.backgroundColor = .purple
+        v.attributedPlaceholder = AttributedTextManager.getAttributedText("Choose Date", font: UIFont.systemFont(ofSize: 14), color: .white)
         return v
     }()
     
