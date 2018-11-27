@@ -18,6 +18,8 @@
 		4C3380D221A6951400893E82 /* ColorsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D121A6951400893E82 /* ColorsExt.swift */; };
 		4C3380D621A6983C00893E82 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D521A6983C00893E82 /* DateExt.swift */; };
 		4C3380D821A6984A00893E82 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D721A6984A00893E82 /* StringExt.swift */; };
+		4C382BCC21AD557600E2017E /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C382BCB21AD557600E2017E /* DateFunctions.swift */; };
+		4C382BCE21AD586E00E2017E /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C382BCD21AD586E00E2017E /* IntExt.swift */; };
 		5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */; };
 		5B1711528A6E8063E973E0CF5AF825A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
 		5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */; };
@@ -72,6 +74,8 @@
 		4C3380D121A6951400893E82 /* ColorsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsExt.swift; sourceTree = "<group>"; };
 		4C3380D521A6983C00893E82 /* DateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		4C3380D721A6984A00893E82 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		4C382BCB21AD557600E2017E /* DateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		4C382BCD21AD586E00E2017E /* IntExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
 		4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableCollectionView.swift; sourceTree = "<group>"; };
 		4DCCCF0C5173BFD84770599112FE8213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507B191D5C89402AE96D021E3A5AD910 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 		4C3380CE21A693EF00893E82 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				4C382BCB21AD557600E2017E /* DateFunctions.swift */,
 				4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */,
 			);
 			name = Manager;
@@ -270,6 +275,7 @@
 		83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4C382BCD21AD586E00E2017E /* IntExt.swift */,
 				4C3380D721A6984A00893E82 /* StringExt.swift */,
 				4C3380D521A6983C00893E82 /* DateExt.swift */,
 				4C3380D121A6951400893E82 /* ColorsExt.swift */,
@@ -443,6 +449,7 @@
 				4C3380D021A6944C00893E82 /* AttributedTextManager.swift in Sources */,
 				4C3380D221A6951400893E82 /* ColorsExt.swift in Sources */,
 				4C3380D621A6983C00893E82 /* DateExt.swift in Sources */,
+				4C382BCE21AD586E00E2017E /* IntExt.swift in Sources */,
 				5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */,
 				4C3380CD21A693BB00893E82 /* TextfieldExt.swift in Sources */,
 				742F294E0C25F90FFB09603673301851 /* ImageLabelButtonView.swift in Sources */,
@@ -453,6 +460,7 @@
 				4C3380D821A6984A00893E82 /* StringExt.swift in Sources */,
 				5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */,
 				EF374AD0D72F92E6BDCE2C651BB08D58 /* RadioButton.swift in Sources */,
+				4C382BCC21AD557600E2017E /* DateFunctions.swift in Sources */,
 				1857916F145BEF93C2D2E1270D813656 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
