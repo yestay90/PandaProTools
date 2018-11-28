@@ -39,8 +39,8 @@ class TestNoScrollableViewsViewController: UIViewController, UITableViewDataSour
     
     lazy var tableView: NoScrollableTableView = {
         let v = NoScrollableTableView()
-        v.delegate = self as! UITableViewDelegate
-        v.dataSource = self as! UITableViewDataSource
+        v.delegate = self
+        v.dataSource = self 
         return v
     }()
     
@@ -134,6 +134,10 @@ class TestNoScrollableViewsViewController: UIViewController, UITableViewDataSour
         return arrayTitles.count
     }
     
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("did select")
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let title = arrayTitles[indexPath.row]
         
