@@ -67,7 +67,7 @@ public class SliderViewHorizontalPanda: UIView, UIScrollViewDelegate {
     }
     
     @objc func goLinkOfAd(_ gesture: UITapGestureRecognizer){
-        print("did tap slidet at view: \(self.selectedPage)")
+        print("did tap slidet at view: \(self.selectedPage!)")
     }
     
     deinit{
