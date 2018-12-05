@@ -19,7 +19,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var arrayTitles: [String] = [
         "NoScrollableTableView",
-        "DateTextField"
+        "DateTextField",
+        "SliderView"
     ]
     
     override func viewDidLoad() {
@@ -84,7 +85,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             let vc = DateTextfieldViewController()
             self.navigationController?.pushViewController(vc, animated: true)
-            
+        case "SliderView":
+            let vc = SliderViewPandaTestsController()
+            self.navigationController?.pushViewController(vc, animated: true)
         default:
             break
         }

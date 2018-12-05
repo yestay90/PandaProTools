@@ -20,6 +20,8 @@
 		4C3380D821A6984A00893E82 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D721A6984A00893E82 /* StringExt.swift */; };
 		4C382BCC21AD557600E2017E /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C382BCB21AD557600E2017E /* DateFunctions.swift */; };
 		4C382BCE21AD586E00E2017E /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C382BCD21AD586E00E2017E /* IntExt.swift */; };
+		4C70A82221B11F5400EFED65 /* SliderViewHorizontalPanda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A82021B11F5300EFED65 /* SliderViewHorizontalPanda.swift */; };
+		4C70A82321B11F5400EFED65 /* PageControllerLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A82121B11F5400EFED65 /* PageControllerLabelView.swift */; };
 		5AAD1E0457AFFA9AE5C3F86B0218DC67 /* PandaProTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D43FDA4E79A28E2BFD5B9F0CB2B72B5 /* PandaProTools-dummy.m */; };
 		5B1711528A6E8063E973E0CF5AF825A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0EA215E99FD0275243E5DF7AFD2FA /* Foundation.framework */; };
 		5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030A7D0D65EB6C20325F3E46D295A27 /* ImageAndLabel.swift */; };
@@ -77,6 +79,8 @@
 		4C382BCB21AD557600E2017E /* DateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
 		4C382BCD21AD586E00E2017E /* IntExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
 		4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoScrollableCollectionView.swift; sourceTree = "<group>"; };
+		4C70A82021B11F5300EFED65 /* SliderViewHorizontalPanda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewHorizontalPanda.swift; sourceTree = "<group>"; };
+		4C70A82121B11F5400EFED65 /* PageControllerLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerLabelView.swift; sourceTree = "<group>"; };
 		4DCCCF0C5173BFD84770599112FE8213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507B191D5C89402AE96D021E3A5AD910 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -161,8 +165,7 @@
 				E41EC633409DB2397F29C5B8FC149557 /* LabelWithImage.swift */,
 				0D4860621E79B4291C275219E000461D /* RadioButton.swift */,
 			);
-			name = LabelWithImageViews;
-			path = PandaProTools/Classes/LabelWithImageViews;
+			path = LabelWithImageViews;
 			sourceTree = "<group>";
 		};
 		3893913AA507E011C9A730A0B3C6EAB8 /* Support Files */ = {
@@ -184,8 +187,7 @@
 			children = (
 				4C3380CA21A692FF00893E82 /* DateTextfield.swift */,
 			);
-			name = CustomTextFieldViews;
-			path = PandaProTools/Classes/CustomTextFieldViews;
+			path = CustomTextFieldViews;
 			sourceTree = "<group>";
 		};
 		4C3380CE21A693EF00893E82 /* Manager */ = {
@@ -194,8 +196,38 @@
 				4C382BCB21AD557600E2017E /* DateFunctions.swift */,
 				4C3380CF21A6944C00893E82 /* AttributedTextManager.swift */,
 			);
-			name = Manager;
-			path = PandaProTools/Classes/Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4C70A81C21B11ED600EFED65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C3380CE21A693EF00893E82 /* Manager */,
+				4C3380C921A692E700893E82 /* CustomTextFieldViews */,
+				83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */,
+				1735DD50605144147F40F2E02B5FA01E /* LabelWithImageViews */,
+				785BDB228C825FF30959C29D4F9116D8 /* NoScrollableViews */,
+				4C70A81D21B11F0E00EFED65 /* YTMSlider */,
+			);
+			name = Classes;
+			path = PandaProTools/Classes;
+			sourceTree = "<group>";
+		};
+		4C70A81D21B11F0E00EFED65 /* YTMSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4C70A82421B11F5900EFED65 /* Views */,
+			);
+			path = YTMSlider;
+			sourceTree = "<group>";
+		};
+		4C70A82421B11F5900EFED65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C70A82121B11F5400EFED65 /* PageControllerLabelView.swift */,
+				4C70A82021B11F5300EFED65 /* SliderViewHorizontalPanda.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5395C52BEA67E786EEF5898FE0DDAEA7 /* iOS */ = {
@@ -224,8 +256,7 @@
 				4C6741451EC9E911846C09F6936E98B2 /* NoScrollableCollectionView.swift */,
 				0B3BDC17C8688CB1366600AE159F318D /* NoScrollableTableView.swift */,
 			);
-			name = NoScrollableViews;
-			path = PandaProTools/Classes/NoScrollableViews;
+			path = NoScrollableViews;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -242,11 +273,7 @@
 		7F63A1563552235CB38B9AAA028FC973 /* PandaProTools */ = {
 			isa = PBXGroup;
 			children = (
-				4C3380CE21A693EF00893E82 /* Manager */,
-				4C3380C921A692E700893E82 /* CustomTextFieldViews */,
-				83BBE3C0F4F7788CD88922AB0E89FE49 /* Extensions */,
-				1735DD50605144147F40F2E02B5FA01E /* LabelWithImageViews */,
-				785BDB228C825FF30959C29D4F9116D8 /* NoScrollableViews */,
+				4C70A81C21B11ED600EFED65 /* Classes */,
 				B9F4C9BD21D391A8E8864C9A6BBFD928 /* Pod */,
 				3893913AA507E011C9A730A0B3C6EAB8 /* Support Files */,
 			);
@@ -282,8 +309,7 @@
 				4C3380CC21A693BB00893E82 /* TextfieldExt.swift */,
 				59137072F8AAA4CF14C5B13C2D250DD5 /* View.swift */,
 			);
-			name = Extensions;
-			path = PandaProTools/Classes/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9E8C7719B3AACC5B98F81E4FA49516B0 /* Development Pods */ = {
@@ -448,10 +474,12 @@
 			files = (
 				4C3380D021A6944C00893E82 /* AttributedTextManager.swift in Sources */,
 				4C3380D221A6951400893E82 /* ColorsExt.swift in Sources */,
+				4C70A82221B11F5400EFED65 /* SliderViewHorizontalPanda.swift in Sources */,
 				4C3380D621A6983C00893E82 /* DateExt.swift in Sources */,
 				4C382BCE21AD586E00E2017E /* IntExt.swift in Sources */,
 				5BF1DFCE2CC06B74A03D441827DB4840 /* ImageAndLabel.swift in Sources */,
 				4C3380CD21A693BB00893E82 /* TextfieldExt.swift in Sources */,
+				4C70A82321B11F5400EFED65 /* PageControllerLabelView.swift in Sources */,
 				742F294E0C25F90FFB09603673301851 /* ImageLabelButtonView.swift in Sources */,
 				4C3380CB21A692FF00893E82 /* DateTextfield.swift in Sources */,
 				FFC8B18D6CEBF56076B561F01CA6D972 /* LabelWithImage.swift in Sources */,

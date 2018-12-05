@@ -10,6 +10,7 @@
 		2C205E0525CB3953E51D839E /* Pods_PandaProTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */; };
 		4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */; };
 		4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */; };
+		4C70A82821B14CC600EFED65 /* SliderViewPandaTestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A82721B14CC600EFED65 /* SliderViewPandaTestsController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		3741D0FA627A7C09A1AA61CF /* Pods-PandaProTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Example/Pods-PandaProTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNoScrollableViewsViewController.swift; sourceTree = "<group>"; };
 		4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDateTextfieldViewController.swift; sourceTree = "<group>"; };
+		4C70A82721B14CC600EFED65 /* SliderViewPandaTestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewPandaTestsController.swift; sourceTree = "<group>"; };
 		4EEB2EADBA5730B3234971DE /* Pods-PandaProTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Tests/Pods-PandaProTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PandaProTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaProTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +78,35 @@
 		4C3380D921A69A2600893E82 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */,
-				4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */,
+				4C70A82A21B158E900EFED65 /* DateTextfield */,
+				4C70A82921B158D600EFED65 /* NoScrollableViewsViewController */,
+				4C70A82621B14CAA00EFED65 /* SliderViewPanda */,
 			);
 			name = Modules;
+			sourceTree = "<group>";
+		};
+		4C70A82621B14CAA00EFED65 /* SliderViewPanda */ = {
+			isa = PBXGroup;
+			children = (
+				4C70A82721B14CC600EFED65 /* SliderViewPandaTestsController.swift */,
+			);
+			name = SliderViewPanda;
+			sourceTree = "<group>";
+		};
+		4C70A82921B158D600EFED65 /* NoScrollableViewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */,
+			);
+			name = NoScrollableViewsViewController;
+			sourceTree = "<group>";
+		};
+		4C70A82A21B158E900EFED65 /* DateTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */,
+			);
+			name = DateTextfield;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -340,6 +367,7 @@
 				4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */,
 				4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4C70A82821B14CC600EFED65 /* SliderViewPandaTestsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
