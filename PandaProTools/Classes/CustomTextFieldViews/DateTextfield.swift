@@ -32,7 +32,7 @@ public class DateTextField: UITextField {
     
     public var toolBarBackgroundColor: UIColor = .blue {
         didSet {
-            self.toolBar.backgroundColor = toolBarBackgroundColor
+            self.toolBar.barTintColor = toolBarBackgroundColor
         }
     }
     
@@ -53,6 +53,12 @@ public class DateTextField: UITextField {
             cancelButton.title = cancelButtonTitle
         }
     }
+    
+//    public var isToolbarTranslucent: Bool = false {
+//        didSet{
+//            self.toolBar.isTranslucent = isToolbarTranslucent
+//        }
+//    }
     
     var toolBar: UIToolbar!
     var doneButton: UIBarButtonItem!
@@ -101,11 +107,11 @@ public class DateTextField: UITextField {
         
         // add tool box
         toolBar = UIToolbar()
-        toolBar.barStyle = UIBarStyle.default
+        toolBar.barStyle = .default
         toolBar.isTranslucent = true
         toolBar.tintColor = toolBarTintColor
         toolBar.sizeToFit()
-        toolBar.backgroundColor = toolBarBackgroundColor
+        toolBar.barTintColor = toolBarBackgroundColor
         
         // Adds the buttons
         doneButton = UIBarButtonItem(title: self.readyButtonTitle, style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.toolBarReadyButtonClicked(_:)))
