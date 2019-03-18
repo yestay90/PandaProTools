@@ -54,12 +54,6 @@ public class DateTextField: UITextField {
         }
     }
     
-//    public var isToolbarTranslucent: Bool = false {
-//        didSet{
-//            self.toolBar.isTranslucent = isToolbarTranslucent
-//        }
-//    }
-    
     var toolBar: UIToolbar!
     var doneButton: UIBarButtonItem!
     var cancelButton: UIBarButtonItem!

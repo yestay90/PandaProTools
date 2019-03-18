@@ -1,5 +1,5 @@
 PODS:
-  - PandaProTools (0.1.0)
+  - PandaProTools (2.0.0)
 
 DEPENDENCIES:
   - PandaProTools (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PandaProTools: 390cf43e1e6d288f04cfe22d78ed006df42713c3
+  PandaProTools: e02826a1f7b2e38718ec236ad0a90f54e29e134c
 
-PODFILE CHECKSUM: f84ed418ae6afc536cf7367e5f830b9f5eebe08b
+PODFILE CHECKSUM: f7d7fca031a3b45c75cd3f2902e76ad069974f84
 
 COCOAPODS: 1.5.3

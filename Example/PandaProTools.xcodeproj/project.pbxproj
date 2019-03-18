@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C205E0525CB3953E51D839E /* Pods_PandaProTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */; };
+		4C0DD162223FAD0F003EBB4F /* PandaProTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0DD161223FAD0F003EBB4F /* PandaProTools.framework */; };
 		4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */; };
 		4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */; };
+		4C4B982B223F789A007C6076 /* PickerTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B982A223F789A007C6076 /* PickerTextfieldViewController.swift */; };
 		4C70A82821B14CC600EFED65 /* SliderViewPandaTestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A82721B14CC600EFED65 /* SliderViewPandaTestsController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -33,8 +35,10 @@
 /* Begin PBXFileReference section */
 		34A4E3996DEEBEB2A2A63518 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Example/Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3741D0FA627A7C09A1AA61CF /* Pods-PandaProTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Example/Pods-PandaProTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C0DD161223FAD0F003EBB4F /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNoScrollableViewsViewController.swift; sourceTree = "<group>"; };
 		4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDateTextfieldViewController.swift; sourceTree = "<group>"; };
+		4C4B982A223F789A007C6076 /* PickerTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextfieldViewController.swift; sourceTree = "<group>"; };
 		4C70A82721B14CC600EFED65 /* SliderViewPandaTestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewPandaTestsController.swift; sourceTree = "<group>"; };
 		4EEB2EADBA5730B3234971DE /* Pods-PandaProTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Tests/Pods-PandaProTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaProTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0DD162223FAD0F003EBB4F /* PandaProTools.framework in Frameworks */,
 				2C205E0525CB3953E51D839E /* Pods_PandaProTools_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,11 +83,20 @@
 		4C3380D921A69A2600893E82 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4C4B9829223F6B7D007C6076 /* PickerTextfield */,
 				4C70A82A21B158E900EFED65 /* DateTextfield */,
 				4C70A82921B158D600EFED65 /* NoScrollableViewsViewController */,
 				4C70A82621B14CAA00EFED65 /* SliderViewPanda */,
 			);
 			name = Modules;
+			sourceTree = "<group>";
+		};
+		4C4B9829223F6B7D007C6076 /* PickerTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				4C4B982A223F789A007C6076 /* PickerTextfieldViewController.swift */,
+			);
+			name = PickerTextfield;
 			sourceTree = "<group>";
 		};
 		4C70A82621B14CAA00EFED65 /* SliderViewPanda */ = {
@@ -194,6 +208,7 @@
 		ED30A2E042D899326ABDF5FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C0DD161223FAD0F003EBB4F /* PandaProTools.framework */,
 				52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */,
 				A548F5910AFA4395A2D7CDF8 /* Pods_PandaProTools_Tests.framework */,
 			);
@@ -363,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4B982B223F789A007C6076 /* PickerTextfieldViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */,
 				4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */,
@@ -454,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -500,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -514,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PandaProTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -530,7 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PandaProTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
