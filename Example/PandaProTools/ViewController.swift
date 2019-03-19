@@ -21,7 +21,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "NoScrollableTableView",
         "DateTextField",
         "SliderView",
-        "PickerTextField"
+        "PickerTextField",
+        "BindingTextfield"
     ]
     
     override func viewDidLoad() {
@@ -91,6 +92,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(vc, animated: true)
         case "PickerTextField":
             let vc = PickerTextfieldViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        case "BindingTextfield":
+            let vc = BindingTextfieldViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             break

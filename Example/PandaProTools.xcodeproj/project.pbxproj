@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C205E0525CB3953E51D839E /* Pods_PandaProTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C9EBCD272F25892BE70A4E /* Pods_PandaProTools_Example.framework */; };
 		4C0DD162223FAD0F003EBB4F /* PandaProTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0DD161223FAD0F003EBB4F /* PandaProTools.framework */; };
+		4C17D0172240BA1300E1365F /* BindingTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17D0162240BA1300E1365F /* BindingTextfieldViewController.swift */; };
 		4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */; };
 		4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */; };
 		4C4B982B223F789A007C6076 /* PickerTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B982A223F789A007C6076 /* PickerTextfieldViewController.swift */; };
@@ -36,6 +37,7 @@
 		34A4E3996DEEBEB2A2A63518 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Example/Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3741D0FA627A7C09A1AA61CF /* Pods-PandaProTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaProTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaProTools_Example/Pods-PandaProTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C0DD161223FAD0F003EBB4F /* PandaProTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PandaProTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C17D0162240BA1300E1365F /* BindingTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextfieldViewController.swift; sourceTree = "<group>"; };
 		4C3380C721A67EA800893E82 /* TestNoScrollableViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNoScrollableViewsViewController.swift; sourceTree = "<group>"; };
 		4C3380D321A6964200893E82 /* TestDateTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDateTextfieldViewController.swift; sourceTree = "<group>"; };
 		4C4B982A223F789A007C6076 /* PickerTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextfieldViewController.swift; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C17D0132240B96000E1365F /* BindingTextfieldController */ = {
+			isa = PBXGroup;
+			children = (
+				4C17D0162240BA1300E1365F /* BindingTextfieldViewController.swift */,
+			);
+			name = BindingTextfieldController;
+			sourceTree = "<group>";
+		};
 		4C3380D921A69A2600893E82 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4C17D0132240B96000E1365F /* BindingTextfieldController */,
 				4C4B9829223F6B7D007C6076 /* PickerTextfield */,
 				4C70A82A21B158E900EFED65 /* DateTextfield */,
 				4C70A82921B158D600EFED65 /* NoScrollableViewsViewController */,
@@ -382,6 +393,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				4C3380C821A67EA800893E82 /* TestNoScrollableViewsViewController.swift in Sources */,
 				4C3380D421A6964200893E82 /* TestDateTextfieldViewController.swift in Sources */,
+				4C17D0172240BA1300E1365F /* BindingTextfieldViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				4C70A82821B14CC600EFED65 /* SliderViewPandaTestsController.swift in Sources */,
 			);

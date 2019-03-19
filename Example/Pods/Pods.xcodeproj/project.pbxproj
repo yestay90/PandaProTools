@@ -19,6 +19,7 @@
 		3D418F8722D9556E0E33FF8227126121 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389152B9842B415C2639283FA4A32181 /* DateExt.swift */; };
 		4584845C8642735200E97313AAEF0015 /* PandaProTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB41E757500C8127BB7DB723FF84A493 /* PandaProTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		497BDACCBF4C13FF81F4933FC468D7AC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805A377FEB75EAD29F063A0A07513C3E /* MapKit.framework */; };
+		4C17D0152240B9A700E1365F /* BindingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17D0142240B9A700E1365F /* BindingTextfield.swift */; };
 		57327DB3A65941851437532B9BCA85F9 /* ColorsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E15DDFA5AD6379286F223D59DF8DEB1 /* ColorsExt.swift */; };
 		57B58FF78D688353BC7FCC2B81E6CB00 /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3CCBF35406579E255303A34F92A43 /* LabelWithImage.swift */; };
 		63B00126064FD752810E914D3A34593A /* DateTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572187843A49D45EF1041D148995D8C /* DateTextfield.swift */; };
@@ -75,6 +76,7 @@
 		4775E67D272A00F63B7469A331A544A9 /* Pods-PandaProTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PandaProTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47F79D2BB0C2DB089F045E89EA756F8B /* Pods-PandaProTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PandaProTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4C100C52F7E6186537724402B82901D7 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4C17D0142240B9A700E1365F /* BindingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingTextfield.swift; sourceTree = "<group>"; };
 		57D1EEEFD824F00DAF0D05118DD0669D /* Pods-PandaProTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5DAD8BE674B52C01A67E707CAF2CB063 /* Pods-PandaProTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PandaProTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		5E15DDFA5AD6379286F223D59DF8DEB1 /* ColorsExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorsExt.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 		AC2C0FF19C2ED66B10DC15A5DE526082 /* CustomTextFieldViews */ = {
 			isa = PBXGroup;
 			children = (
+				4C17D0142240B9A700E1365F /* BindingTextfield.swift */,
 				3DADCE8A17430009E67C398654910C9D /* PickerTextField.swift */,
 				1572187843A49D45EF1041D148995D8C /* DateTextfield.swift */,
 			);
@@ -496,6 +499,7 @@
 				CD0A466033293D3E7AE3CC4CE1EA288E /* PickerTextField.swift in Sources */,
 				3D418F8722D9556E0E33FF8227126121 /* DateExt.swift in Sources */,
 				EB5C3B35DCB3A82047640BF9332052A1 /* DateFunctions.swift in Sources */,
+				4C17D0152240B9A700E1365F /* BindingTextfield.swift in Sources */,
 				63B00126064FD752810E914D3A34593A /* DateTextfield.swift in Sources */,
 				1F11F2DC20780788D3422D8C2E27AB05 /* ImageAndLabel.swift in Sources */,
 				EF3D64DE1CE44F774BDB9FECDEB666C1 /* ImageLabelButtonView.swift in Sources */,
