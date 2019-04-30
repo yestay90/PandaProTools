@@ -101,7 +101,7 @@ extension PickerTextfieldViewController: PickerTextFieldDelegate {
         }
     }
     
-    func pickerTextField(readyButtonClicked button: UIBarButtonItem, textfield: UITextField) {
+    func pickerTextField(readyButtonClicked button: UIBarButtonItem, textfield: UITextField, pickerView: UIPickerView) {
         switch textfield {
         case firstTextfield:
             firstTextfield.text = "Ready button clicked"
@@ -112,7 +112,7 @@ extension PickerTextfieldViewController: PickerTextFieldDelegate {
         }
     }
     
-    func pickerTextField(cancelButtonClicked button: UIBarButtonItem, textfield: UITextField) {
+    func pickerTextField(cancelButtonClicked button: UIBarButtonItem, textfield: UITextField, pickerView: UIPickerView) {
         switch textfield {
         case firstTextfield:
             firstTextfield.text = "Cancel button clicked"

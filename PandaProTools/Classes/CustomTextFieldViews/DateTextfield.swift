@@ -57,6 +57,7 @@ public class DateTextField: UITextField {
     var toolBar: UIToolbar!
     var doneButton: UIBarButtonItem!
     var cancelButton: UIBarButtonItem!
+    var customDatePicker: UIDatePicker!
     
     public init(_ iconImage: UIImage, imageTintColor: UIColor, toolBarBackgroundColor: UIColor, readyButtonTitle: String, cancelButtonTitle: String) {
         super.init(frame: .zero)
@@ -81,13 +82,13 @@ public class DateTextField: UITextField {
     
     func setDatePickerToTextField(){
         
-        let datePicker = UIDatePicker()
-        datePicker.datePickerMode = .date
-        datePicker.date = NSDate() as Date
-        datePicker.locale = Locale(identifier: "ru_ru")
-        datePicker.accessibilityIdentifier = self.accessibilityIdentifier
-        datePicker.addTarget(self, action: #selector(handleDatePicker(_:)), for: .valueChanged)
-        self.inputView = datePicker
+        customDatePicker = UIDatePicker()
+        customDatePicker.datePickerMode = .date
+        customDatePicker.date = NSDate() as Date
+        customDatePicker.locale = Locale(identifier: "ru_ru")
+        customDatePicker.accessibilityIdentifier = self.accessibilityIdentifier
+        customDatePicker.addTarget(self, action: #selector(handleDatePicker(_:)), for: .valueChanged)
+        self.inputView = customDatePicker
     }
     
     @objc func handleDatePicker(_ sender: UIDatePicker) {
@@ -120,10 +121,12 @@ public class DateTextField: UITextField {
     }
     
     @objc func toolBarReadyButtonClicked(_ button: UIBarButtonItem){
+        print(customDatePicker.date)
         dateDelegate?.dateTextFieldDelegate(readyButtonClicked: button, textfield: self)
     }
     
     @objc func toolBarCancelButtonClicked(_ button: UIBarButtonItem){
+        
         dateDelegate?.dateTextFieldDelegate(cancelButtonClicked: button, textfield: self)
     }
 }

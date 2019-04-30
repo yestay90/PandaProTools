@@ -11,8 +11,8 @@ public protocol PickerTextFieldDelegate {
     func pickerTextField(textfield: UITextField, pickerView: UIPickerView, didSelect row: Int)
     func pickerTextField(textfield: UITextField, pickerView: UIPickerView, titleForRow row: Int) -> String
     func pickerTextFieldNumberOfRows(textfield: UITextField, pickerView: UIPickerView) -> Int
-    func pickerTextField(readyButtonClicked button: UIBarButtonItem, textfield: UITextField)
-    func pickerTextField(cancelButtonClicked button: UIBarButtonItem, textfield: UITextField)
+    func pickerTextField(readyButtonClicked button: UIBarButtonItem, textfield: UITextField, pickerView: UIPickerView)
+    func pickerTextField(cancelButtonClicked button: UIBarButtonItem, textfield: UITextField, pickerView: UIPickerView)
 }
 
 public class PickerTextField: UITextField {
@@ -107,11 +107,11 @@ public class PickerTextField: UITextField {
     }
     
     @objc func toolBarReadyButtonClicked(_ button: UIBarButtonItem){
-        pickerDelegate?.pickerTextField(readyButtonClicked: button, textfield: self)
+        pickerDelegate?.pickerTextField(readyButtonClicked: button, textfield: self,  pickerView: self.customPickerView)
     }
     
     @objc func toolBarCancelButtonClicked(_ button: UIBarButtonItem){
-        pickerDelegate?.pickerTextField(cancelButtonClicked: button, textfield: self)
+        pickerDelegate?.pickerTextField(cancelButtonClicked: button, textfield: self,  pickerView: self.customPickerView)
     }
 }
 

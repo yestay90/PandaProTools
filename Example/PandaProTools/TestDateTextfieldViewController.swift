@@ -42,15 +42,19 @@ class DateTextfieldViewController: UIViewController {
 }
 
 extension DateTextfieldViewController: DateTextFieldDelegate {
+   
+    
     func dateTextFieldDelegate(didChoose date: Date, textfield: UITextField) {
         chosenDate = date
     }
     
     func dateTextFieldDelegate(readyButtonClicked button: UIBarButtonItem, textfield: UITextField) {
+        
         self.view.endEditing(true)
     }
     
     func dateTextFieldDelegate(cancelButtonClicked button: UIBarButtonItem, textfield: UITextField) {
+        
         chosenDate = nil
         self.view.endEditing(true)
     }
