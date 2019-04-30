@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Yestay Muratov' => 'yestay90@gmail.com' }
     s.source           = { :git => 'https://github.com/yestay90/PandaProTools.git', :tag => s.version.to_s }
-    s.swift_version      = '4.1'
+    s.swift_version      = '4.0'
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '11.0'
