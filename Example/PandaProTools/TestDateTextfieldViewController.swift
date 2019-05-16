@@ -18,7 +18,6 @@ class DateTextfieldViewController: UIViewController {
         v.toolBarBackgroundColor = .red
         v.backgroundColor = .purple
         v.attributedPlaceholder = AttributedTextManager.getAttributedText("Choose Date", font: UIFont.systemFont(ofSize: 14), color: .white)
-        
         return v
     }()
     

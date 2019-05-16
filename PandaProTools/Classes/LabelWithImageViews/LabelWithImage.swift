@@ -28,7 +28,7 @@ public class LabelWithImage: UIView{
     
     public var imageView: UIImageView = {
         let iv = UIImageView()
-        iv.image = #imageLiteral(resourceName: "warning_sign").withRenderingMode(.alwaysTemplate)
+        iv.image = UIImage(named: "arrowDown")!.withRenderingMode(.alwaysTemplate)
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.contentMode = .scaleAspectFit
         return iv
