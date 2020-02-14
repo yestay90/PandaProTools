@@ -10,7 +10,7 @@ import Foundation
 
 public class AttributedTextManager {
     public class func getAttributedText(_ string: String, font: UIFont, color: UIColor)->NSAttributedString{
-        let attrubutes = [NSAttributedStringKey.font : font, NSAttributedStringKey.foregroundColor: color]
+        let attrubutes = [NSAttributedString.Key.font : font, NSAttributedString.Key.foregroundColor: color]
         
         let nsatrributed = NSAttributedString(string: string, attributes: attrubutes)
         return nsatrributed

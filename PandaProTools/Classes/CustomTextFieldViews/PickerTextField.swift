@@ -72,7 +72,7 @@ public class PickerTextField: UITextField {
     public func startSettings(){
         createToolBarFor()
         setPickerToTextField()
-        setImageOnRightSide(image: iconImage, tintColor: imageTintColor)
+//        setImageOnRightSide(image: iconImage, tintColor: imageTintColor)
     }
     
     
@@ -95,9 +95,9 @@ public class PickerTextField: UITextField {
         toolBar.barTintColor = toolBarBackgroundColor
 
         // Adds the buttons
-        doneButton = UIBarButtonItem(title: self.readyButtonTitle, style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.toolBarReadyButtonClicked(_:)))
+        doneButton = UIBarButtonItem(title: self.readyButtonTitle, style: UIBarButtonItem.Style.plain, target: self, action: #selector(self.toolBarReadyButtonClicked(_:)))
         doneButton.accessibilityIdentifier = self.accessibilityIdentifier
-        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
 
         cancelButton = UIBarButtonItem(title: self.cancelButtonTitle, style: .plain, target: self, action: #selector(self.toolBarCancelButtonClicked(_:)))
         cancelButton.accessibilityIdentifier = self.accessibilityIdentifier

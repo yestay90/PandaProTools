@@ -249,7 +249,7 @@ public class SliderViewHorizontalPanda: UIView, UIScrollViewDelegate {
             self.pageViews[page] = newPageView
             
             self.scrollView.addSubview(newPageView)
-            self.scrollView.bringSubview(toFront: newPageView)
+            self.scrollView.bringSubviewToFront(newPageView)
             
         }
     }
@@ -265,6 +265,50 @@ public class SliderViewHorizontalPanda: UIView, UIScrollViewDelegate {
             pageView.removeFromSuperview()
             pageViews[page] = nil
         }
+    }
+    
+    public func jumpToNextPage() {
+        let pageCount = self.getNumberOfItems()
+        if pageCount == 0 {
+            return
+        }
+        
+        let pageWidth = self.scrollView.frame.size.width
+        var value = (selectedPage ?? 0) * Int(pageWidth)
+        var firstPage = (selectedPage ?? 0) - 1
+        let lastPage = (selectedPage ?? 0) + 1
+        
+        if firstPage < 0 {
+            value = 0
+            selectedPage = 0
+            firstPage = 0
+        }
+        
+        if (selectedPage ?? 0) >= pageCount {
+            value -= Int(pageWidth)
+            selectedPage = pageCount - 1
+        }
+        
+        if firstPage >= 0 {
+            // Purge anything before the first page
+            for index in 0 ..< firstPage{
+                purgePage(index)
+            }
+        }
+        
+        // Load pages in our range
+        for index in firstPage...lastPage {
+            loadPage(index)
+        }
+        
+        let newLastPage = lastPage + 1
+        if newLastPage < pageCount {
+            // Purge anything after the last page
+            for index in newLastPage..<pageCount{
+                purgePage(index)
+            }
+        }
+        scrollView.contentOffset.x = CGFloat(value)
     }
     
     // MARK: uiscroll delegate
