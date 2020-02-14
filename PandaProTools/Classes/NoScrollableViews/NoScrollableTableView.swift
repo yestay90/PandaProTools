@@ -19,6 +19,6 @@ public class NoScrollableTableView: UITableView {
     
     override public var intrinsicContentSize: CGSize {
         self.layoutIfNeeded()
-        return CGSize(width: UIViewNoIntrinsicMetric, height: contentSize.height)
+        return CGSize(width: UIView.noIntrinsicMetric, height: contentSize.height)
     }
 }

@@ -10,26 +10,22 @@ import Foundation
 
 extension UITextField{
     func setImageOnRightSide(image: UIImage, tintColor: UIColor = .black){
-        
-        self.rightViewMode = UITextFieldViewMode.always
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 20))
-        
+        rightViewMode = UITextField.ViewMode.always
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 25, height: 25))
         imageView.image = image
-        imageView.contentMode = .scaleAspectFit
-        self.rightView = imageView
-        self.rightView?.tintColor = tintColor
+        imageView.tintColor = tintColor
+        let view = UIView(frame : CGRect(x: 0, y: 0, width: 30, height: 30))
+        view.addSubview(imageView)
+        rightView = view
     }
     
     func setImageOnLeftSide(image: UIImage){
-        
-        self.rightViewMode = UITextFieldViewMode.always
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 20))
-        
+        leftViewMode = UITextField.ViewMode.always
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
         imageView.image = image
-        imageView.contentMode = .scaleAspectFit
-        self.leftViewMode = UITextFieldViewMode.always
-        self.leftView = imageView
-        self.rightView?.tintColor = .white
+        let view = UIView(frame : CGRect(x: 0, y: 0, width: 30, height: 30))
+        view.addSubview(imageView)
+        leftView = view
     }
     
 //    func setAttibutedPlaceholder(text: String, textColor: UIColor = .black){

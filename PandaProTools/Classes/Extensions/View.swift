@@ -27,7 +27,7 @@ extension UIView{
             view.translatesAutoresizingMaskIntoConstraints = false
         }
         
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutConstraint.FormatOptions(), metrics: nil, views: viewsDictionary))
     }
     
     func addRoundCorners(corners: UIRectCorner, radius: CGFloat){

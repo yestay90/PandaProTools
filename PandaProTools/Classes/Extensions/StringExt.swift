@@ -23,7 +23,7 @@ extension String {
     
     func getFrameForString(font: UIFont)-> CGSize {
         
-        let fontAttribute = [NSAttributedStringKey.font: font]
+        let fontAttribute = [NSAttributedString.Key.font: font]
         let size = self.size(withAttributes: fontAttribute)  // for Single Line
         return size;
     }
@@ -64,7 +64,7 @@ extension String {
         
         let size = CGSize(width: width, height: 1000)
         let options = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)
-        let estimatedFrame = NSString(string: self).boundingRect(with: size, options: options, attributes: [NSAttributedStringKey.font: font], context: nil)
+        let estimatedFrame = NSString(string: self).boundingRect(with: size, options: options, attributes: [NSAttributedString.Key.font: font], context: nil)
         return estimatedFrame
     }
 }
