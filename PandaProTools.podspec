@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'PandaProTools'
-    s.version          = '2.0.3'
+    s.version          = '2.0.5'
     s.summary          = 'Helper classes, managers, views for iOS Apps'
     
     # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Yestay Muratov' => 'yestay90@gmail.com' }
     s.source           = { :git => 'https://github.com/yestay90/PandaProTools.git', :tag => s.version.to_s }
-    s.swift_version      = '4.0'
+    s.swift_version      = '5.0'
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '11.0'

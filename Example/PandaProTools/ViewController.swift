@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func configureTableView(){
         self.tableView.estimatedRowHeight = 44
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.estimatedSectionFooterHeight = 1.1//CGFloat.leastNormalMagnitude
         //        self.tableView.backgroundColor = UIColor.background.light
         let footer = UIView(frame: .zero)
